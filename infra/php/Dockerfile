@@ -15,4 +15,5 @@ COPY ./php.ini /usr/local/etc/php/php.ini
 
 WORKDIR /data
 
+EXPOSE 8080
 
