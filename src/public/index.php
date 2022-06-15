@@ -53,3 +53,5 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
+
+<a href="{{ route('home') }}">ログイン</a>
